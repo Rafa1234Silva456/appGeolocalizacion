@@ -1,7 +1,9 @@
 {
+  "cli": {
+    "version": ">= 3.0.0"
+  },
   "build": {
-    "release": {
-      "distribution": "store",
+    "production": {
       "android": {
         "buildType": "apk"
       }
